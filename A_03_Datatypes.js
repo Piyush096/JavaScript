@@ -119,6 +119,13 @@ typeof null // "object"
 
 
 
+console.log(3 +"2");  // here the output will be the 32
+console.log(3 + +"2"); // and here the output wil be 5  Using +"2" casts the string value ("2") to a number,
+//therefore the exrpession evaluates to 6 because it essentially evaluates to 1 + (+"2") + 3
+//which in turn evaluates to 1 + 2 + 3.
+
+
+
 //------------------------------------------------------------------------------
 // NUMBERS :-
 
