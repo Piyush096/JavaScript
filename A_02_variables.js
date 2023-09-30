@@ -46,4 +46,14 @@ let user = 'John', age = 25, mess = 'Hello'; // we can also declare multiple var
 // cont innerHeight; ----> this shows ans error;
    const innerHeight = 4; // it is correct show we have to initialized during declaration;
 
+const account = 1444
+let accountemail = "hitesh@"
+var accountpass = "aaaa"
+accountcity = "bangluuuru"
 
+console.table([account, accountemail, accountpass, accountcity]) // using this we can print it in a single table
+
+/*
+prefer not to use var
+because of issue in block scope and functional scope
+*/

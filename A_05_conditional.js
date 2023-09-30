@@ -20,3 +20,27 @@ console.log(typeof b );
 //if....else if...else statement
 
 
+//switch--------------------------------------------------------------------------
+
+const fruit = 'papaya';
+
+switch(fruit){
+    case'orange':
+    console.log("it is orange");
+    break;
+
+    case 'banana':
+        console.log("it is orange");
+    break;
+
+    default:
+        console.log(`sorry, no match found ${fruit}`);
+}
+// in this way the switch statements works;
+
+
+// ternary operator:-
+
+let age = 12;
+
+console.log(age >= 12 ? "you are kid" : "you are not kid");
