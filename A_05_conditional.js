@@ -10,7 +10,8 @@
 
 let b = "89"
 console.log(typeof b );
-b = Number.parseInt(b); // it converts string to a number;
+b = Number.parseInt(b);
+console.log(Number(b)) // it converts string to a number;
 console.log(typeof b );
 
 

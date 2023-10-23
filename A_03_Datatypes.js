@@ -57,7 +57,7 @@ const date = new Date("2022-03-25");
 
 
 //practice:-
-
+f
  let s = "piyush";
  let t = 96;
  console.log(s+t); // If you add a number and a string, the result will be a string concatenation
@@ -261,7 +261,7 @@ Math.pow(n, power)
   Returns n raised to the given power.
 
  */
-
+//-------------------------------------------------------------------------------
 
   // type conversion
 
@@ -278,7 +278,7 @@ Math.pow(n, power)
  // true will give 1;
 
 
-
+f
  // any tyepe to boolean ;
  // 1 => true, 0 => false
  // "" => fasle
