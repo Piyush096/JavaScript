@@ -12,13 +12,6 @@ function average(a,b){ // here a and b are the parameters
 console.log(average(4,5)) // here if average is only refrence but average() is function execution
 // and here 4 and 5 aare the arguments
 
-// another way of defining function
-
-const sum = (a, b) =>{  // here => this is an arrow function
-
-    return a + b
-}
-console.log(sum(9,7))
 
 // if we call a function and does  not send any argumet in that case it will return undefined
 function loginuser(username){
@@ -75,3 +68,6 @@ user_details({
 
 
 // similarly we can also pass the array as an a rgument
+
+
+
