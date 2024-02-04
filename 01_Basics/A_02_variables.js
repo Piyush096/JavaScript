@@ -1,4 +1,4 @@
-// if we have to run th ejs file through th eterminal then we have to wrie:-
+ // if we have to run th ejs file through th eterminal then we have to wrie:-
     //    node file_name.js and then enter , then the program excuted
 
 // You can think of variables as simply “storage containers” for data in your code.

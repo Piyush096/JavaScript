@@ -1,4 +1,4 @@
-//sometime we might have to run a few block of code bsed on  some come condition.
+//sometime we might have to run a few block of code bsed on  some condition.
 
 // let a = prompt("hey what is age");
 
@@ -8,11 +8,6 @@
        //window won't be there and if window isn't there, neither will prompt() be. Run your code in a browser.
 // and this running in the html file and the browser consolel;
 
-let b = "89"
-console.log(typeof b );
-b = Number.parseInt(b);
-console.log(Number(b)) // it converts string to a number;
-console.log(typeof b );
 
 
 // in javascript there are three forms of if..else statement
