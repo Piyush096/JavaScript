@@ -11,7 +11,7 @@ JavaScript has 7 primitive Datatypes
 
 
 /*
-The Object Datatype(Non-Primitive)
+The Object Datatype(Non-Primitive / reference)
 1. An object
 2. An array
 3. A date
@@ -261,25 +261,3 @@ Math.pow(n, power)
   Returns n raised to the given power.
 
  */
-//-------------------------------------------------------------------------------
-
-  // type conversion
-
-  let score = "33";
-
-  let value = Number(score)
-  console.log(value) // in this cae it will print 33
-
-  let marks = "33ab"
-  let marks1 = Number(marks)
-  console.log(marks1); // in this case it will print NaN -- not a number
- // which will not convertable to number in that case it will be NaN
- // in case of null will give 0;
- // true will give 1;
-
-
-f
- // any tyepe to boolean ;
- // 1 => true, 0 => false
- // "" => fasle
- // "piyush" => true

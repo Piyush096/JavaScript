@@ -1,3 +1,12 @@
+let val = 3;
+console.log(-val)
+
+//!operation in javascript
+console.log(1 + "2");
+console.log("1" + 2);
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
 //  in javascript ** this operator means pwer ex - X ** Y means x to the power y.
 
 
@@ -33,5 +42,5 @@ that's why {null >= 0} is true and {null > 0} is false .*/
 
 /*
  how data are stored in memmory and how we access that data on that basis data are divided into two type
- primitive and non-primitive 
+ primitive and non-primitive
  */

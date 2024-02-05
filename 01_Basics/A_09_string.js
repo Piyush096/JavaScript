@@ -22,5 +22,6 @@ console.log(new_name);
 
 const anothername = "  piyush   "
 console.log(anothername);
-console.log(anothername.trim());
+console.log(anothername.trim());  //? it removes the white spaces from both sides of a string.
+                                 //?The trim() method does not change the original string.
 console.log(anothername.includes("i"));
