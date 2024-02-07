@@ -75,3 +75,21 @@ console.log(Array.from({name: "piyush"}))// interesting
 //in this case it will give an empty Array as it unable to identify which one to make array
 
 // we can also use Array.of
+
+
+/*
+Java is a object-oriented programming language
+It is known for its platform independence,
+meaning that Java programs can run on any
+device or platform that has the Java Virtual Machine (JVM) installed
+Java code is compiled into an intermediate form known as bytecode,
+which can be executed on any device with a compatible JVM.
+Java includes automatic garbage collection,
+which manages memory automatically by reclaiming unused memory,
+reducing the risk of memory leaks.
+Java is used in a variety of domains, including web development,
+mobile app development, enterprise software,
+scientific and research applications, and more.
+
+
+*/
