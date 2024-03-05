@@ -16,7 +16,7 @@ const Jsuser = {
 
 // now accesing vlues from the object
 console.log(Jsuser.email)
-console.log(Jsuser["emamil"])  // by using two different ways we can acces the values  and this is the better way
+console.log(Jsuser["email"])  // by using two different ways we can acces the values  and this is the better way
 
 // now we  using the . operator we can not acces the vlaue we have to use the square bracket beacuse
 /*In JavaScript, when you want to access a property of an object using dot notation,
@@ -28,7 +28,7 @@ console.log(Jsuser["full name"]) // correct
 
 Jsuser.email = "mishra.piyu@gmail.com" // using this we can override and change the value  of the eamil.
 
-Object.freeze(Jsuser) // using this freeze method we can restrict that no one can change the data of that onject.
+//Object.freeze(Jsuser) // using this freeze method we can restrict that no one can change the data of that onject.
 
 // now if we do any changes to that object it cant reflect
 Jsuser.name = "piyush mishra"

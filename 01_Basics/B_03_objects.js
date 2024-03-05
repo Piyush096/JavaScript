@@ -1,5 +1,5 @@
 const name = new Object(); //this is sinngelton
-//console.log(name) // in this we can also create the object
+//console.log(name)
 
 name.id = "123a"
 name.fullname = "piyush mishra"
@@ -17,7 +17,7 @@ console.log(Object.entries(name)) // here using this we can print key value pair
 //and all the key vlaue pair also in array at each index
 //ex - [[], [], []]  -- here each array at the index of outer array is key value pair
 
-console.log(name.hasOwnProperty('id')) // using this we can ask the object wheathe it exists  or  not
+console.log(name.hasOwnProperty('id')) // using this we can ask the object wheather it exists  or  not
 
 //-----------------------------------------------------------------------------------------
 // now creating the nested objects vlues
@@ -39,7 +39,8 @@ console.log(user.fullname) // we can acces more nested oblect using multiple dot
 const obj1 = {1:"a", 2:"b", 3:"c"}
 const obj2 = {4:"a", 5:"b", 6:"c"}
 
-const obj3 = Object.assign({}, obj1, obj2) // why we add extra {} ? --> here {} it act as target where all the objects get copied.
+const obj3 = Object.assign({}, obj1, obj2)
+// why we add extra {} ? --> here {} it act as target where all the objects get copied.
 // here if we dont add it also correct in that case all the objects get copied in obj1.
 
 // const returnedTarget = Object.assign(target, source);  this the syntax means the first one is target and the rest one are the sourece
@@ -85,4 +86,4 @@ user_data.email // generally in this way we can fetch the value
 const {email} = name // this is de-structure
 console.log(email) // now after that we simply fetch email no need to use dot operator
 //-------------------------------------------------------------------------------------------
-//jason API intro ? 
+//jason API intro ?

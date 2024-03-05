@@ -44,12 +44,12 @@ splice changes the original array by removing, replacing, or adding values and r
 const names = ["ram", "shyam" , "mohan"]
 const age = [ 23, 34, 33]
 
-//names.push(age) // after doing this it add the whole age array to the last index to the names
+//names.push(age) // after doing this it add the whole age array to the last index to the names iin the form of array
 
 const new_data = names.concat(age);
 console.log(new_data)
-// usint this it cant add the whole array to the last index
-// it simply merege both the array and create new object.
+// using this it cant add the whole array to the last index
+// it simply merege both the array and create new object array.
 
 
 //we can do same thing concat by another method called spread
@@ -64,7 +64,8 @@ console.log(all_new)
 const arr1 = [1, 2, [4, 5], 6, [1, 2, [4, 5, 6]]]
 const arr2 = arr1.flat(Infinity);
 console.log(arr2)
-// using this flat method we can spread the multiple array.
+// flat() method of Array instances creates a new array with all sub-array
+//elements concatenated into it recursively up to the specified depth.
 
 console.log(Array.isArray("piyush")) // using this it will check weather it will an array or not and return ture or false.
 
@@ -73,8 +74,11 @@ console.log(Array.from("piyush"));
 
 console.log(Array.from({name: "piyush"}))// interesting
 //in this case it will give an empty Array as it unable to identify which one to make array
+// here we have to specify weather we have to create array of key or values
 
-// we can also use Array.of
+
+// we can also use Array.of:- returns a new array from a set of elements.
+
 
 
 /*
