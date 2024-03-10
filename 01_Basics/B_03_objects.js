@@ -83,7 +83,13 @@ const user_data = {
 
 user_data.email // generally in this way we can fetch the value
 
-const {email} = name // this is de-structure
+const {email} = user_data // this is de-structure
+// const {email : e} = user_data   -- and then print e it will print the same value as email
 console.log(email) // now after that we simply fetch email no need to use dot operator
+
+
 //-------------------------------------------------------------------------------------------
-//jason API intro ?
+
+//!jason API intro ?
+
+

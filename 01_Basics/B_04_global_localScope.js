@@ -1,17 +1,19 @@
 var g = 10
-let a = 19
+//let a = 19
+//console.log(a)  //print 19
+
 if(true){
-    let a  = 19
+    let a  = 60
     const b = 20
     var g = 78
+    console.log("inner a : " ,a)
 }
 // here {} this is called as scope of program
 
-//console.log(a) -- here a will not print as it defined inside the if scope
-//console.log(b) -- here b will also not get printed as it difined inside the if scope
-console.log(g) // but  here gets printd which will create problem
-console.log(a); // but now here it will printt as we also define it outside the scope
-// as we definte g as 10 out of the scope but inside th escope agian inisealise g as 78 and it will print 78
+//console.log(b) -- not print as it difined inside the if scope
+console.log(g) // but here gets printd which will create problem
+console.log(a) // not print as it defined inside the if scope
+// as we definte g as 10 out of the scope but inside the scope agian Initialize g as 78 and it will print 78
 // but this case will not arise in let and const
 
 
